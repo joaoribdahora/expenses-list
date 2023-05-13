@@ -1,0 +1,42 @@
+.m-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+
+}
+.d-one{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5px;
+}
+.d-two, .d-three, .d-four{
+    flex: 1;
+    margin: 0 5px;
+    text-align: center;
+
+}
+h6{
+    color: #858282;
+    font-size: 15px;
+}
+.d-two span, .d-three span, .d-four span{
+    font-weight: bold;
+    font-size: 12px;
+}
+.d-four{
+    flex: 1;
+    margin: 0 5px;
+}
+.d-one h4 {
+    color: #858282;
+    font-size: 20px;
+}
+.d-one span {
+    color: #151C59;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bolder;
+}

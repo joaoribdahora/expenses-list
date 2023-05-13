@@ -1,0 +1,28 @@
+table{
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+tr td {
+    text-align: left;
+    padding: 10px 0px;
+}
+td span{
+    padding: 5px;
+    color: #FFF;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(199, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+    cursor: pointer;
+    border-radius: 5px;
+}

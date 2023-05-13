@@ -1,0 +1,39 @@
+.f-addinfo {
+    width: 100%;
+    padding: 20px 10px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.f-addinfo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+div input {
+    padding: 5px;
+}
+select {
+    padding: 5px;
+}
+.button {
+    width: 150px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(140, 196, 196);
+    transition: all ease 0.3s;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover{
+    background-color: rgb(97, 138, 138) ;
+}
